@@ -60,3 +60,13 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+body {
+    background-image: url("artem-beliaikin-TSS-1aqoRXE-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    backdrop-filter: blur(5px);
+}
