@@ -13,7 +13,10 @@ Now that times have changed, we must adapt. With our new Cook-It-Yourself (CIY) 
 Times have changed, but our philosophy has not. We believe in the life-changing comfort of a good meal - and now you can cook it yourself!`;
     const aboutSection = document.createElement("div");
     aboutSection.classList.add("abt");
+    const aboutBg = document.createElement("div");
+    aboutBg.classList.add("about-bg");
     aboutSection.appendChild(heading);
     aboutSection.appendChild(content);
-    main.append(aboutSection);
+    aboutBg.appendChild(aboutSection);
+    main.append(aboutBg);
 }
