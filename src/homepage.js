@@ -1,3 +1,5 @@
+import "./homepage.css";
+
 export function homepageSetting() {
     const main = document.querySelector("#content");
     main.innerHTML = "";
@@ -5,6 +7,9 @@ export function homepageSetting() {
     mainHeading.textContent = "Fornax Restaurant";
     const subHeading = document.createElement("h3");
     subHeading.textContent = "Taste Delicious";
-    main.appendChild(mainHeading);
-    main.appendChild(subHeading);
+    const heroSection = document.createElement("div");
+    heroSection.classList.add("hero");
+    heroSection.appendChild(mainHeading);
+    heroSection.appendChild(subHeading);
+    main.append(heroSection);
 }
