@@ -18,3 +18,11 @@ body {
     text-align: center;
     font-size: 30px;
 }
+
+#content h1 {
+    color: white;
+}
+
+#content h3 {
+    color: #746b58;
+}
