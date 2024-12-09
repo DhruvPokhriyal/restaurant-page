@@ -14,9 +14,17 @@ Times have changed, but our philosophy has not. We believe in the life-changing 
     const aboutSection = document.createElement("div");
     aboutSection.classList.add("abt");
     const aboutBg = document.createElement("div");
+    const aboutImg = document.createElement("img");
+    aboutImg.src =
+        "https://images.unsplash.com/photo-1652690772450-2cc9c53060f5?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+    aboutImg.classList.add("about-img");
     aboutBg.classList.add("about-bg");
+    const imgContainer = document.createElement("div");
+    imgContainer.classList.add("about-image-container");
     aboutSection.appendChild(heading);
     aboutSection.appendChild(content);
+    imgContainer.appendChild(aboutImg);
+    aboutBg.appendChild(imgContainer);
     aboutBg.appendChild(aboutSection);
     main.append(aboutBg);
 }
