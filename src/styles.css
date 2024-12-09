@@ -70,3 +70,19 @@ body {
     margin: 0;
     backdrop-filter: blur(5px);
 }
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+nav > button {
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+nav > button:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
