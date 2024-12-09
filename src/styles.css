@@ -86,5 +86,17 @@ nav > button {
 
 nav > button:hover,
 .currentPage {
+    font-weight: bold;
     background-color: rgb(255, 255, 255, 0.5);
+    transition: background-color 0.3 ease, font-weight 0.3 ease;
+}
+
+#content {
+    opacity: 1;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
