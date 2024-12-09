@@ -41,3 +41,8 @@
 .about-content {
     grid-area: body;
 }
+
+.contacts {
+    font-weight: bolder;
+    margin-top: 20px;
+}
