@@ -40,4 +40,34 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    font-weight: bold;
+    display: grid;
+    justify-content: center;
+}
+
+.item-price {
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
 }

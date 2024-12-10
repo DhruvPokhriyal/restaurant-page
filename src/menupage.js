@@ -49,13 +49,16 @@ export function menuSetting() {
         name.textContent = item.name;
         const comment = document.createElement("p");
         comment.textContent = item.comment;
+        const itemInfo = document.createElement("div");
+        itemInfo.classList.add("item-info");
         card.classList.add("menu-card");
         price.classList.add("item-price");
         name.classList.add("item-name");
         comment.classList.add("item-comment");
+        itemInfo.appendChild(name);
+        itemInfo.appendChild(comment);
         card.appendChild(price);
-        card.appendChild(name);
-        card.appendChild(comment);
+        card.appendChild(itemInfo);
         body.appendChild(card);
     }
     menuBg.appendChild(heading);
