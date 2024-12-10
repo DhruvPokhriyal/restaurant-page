@@ -30,3 +30,8 @@ body {
     height: 450px;
     width: 300px;
 }
+
+.menu-heading {
+    font-size: 40px;
+    font-weight: normal;
+}
