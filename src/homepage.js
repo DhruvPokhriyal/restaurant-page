@@ -11,5 +11,8 @@ export function homepageSetting() {
     heroSection.classList.add("hero");
     heroSection.appendChild(mainHeading);
     heroSection.appendChild(subHeading);
-    main.append(heroSection);
+    const homeBg = document.createElement("div");
+    homeBg.classList.add("home-bg");
+    homeBg.append(heroSection);
+    main.append(homeBg);
 }

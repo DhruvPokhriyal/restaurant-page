@@ -10,6 +10,13 @@ body {
     margin-top: -75px;
 } */
 
+.home-bg {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+
 .hero {
     display: grid;
     gap: 20px;
