@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+}
+
+.menu-bg {
+    height: 200vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #86bd5f;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.menu-body {
+    margin-top: -800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    gap: 200px;
+}
+
+.menu-card {
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+}
