@@ -3,12 +3,12 @@ body {
     grid-template-rows: 1fr 100fr;
 }
 
-#content {
+/* #content {
     display: grid;
     justify-content: center;
     align-items: center;
     margin-top: -75px;
-}
+} */
 
 .hero {
     display: grid;
