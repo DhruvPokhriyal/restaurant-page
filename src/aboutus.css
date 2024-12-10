@@ -26,9 +26,10 @@
 }
 
 .about-image-container {
-    height: 600px;
-    width: 400px;
+    height: 500px;
+    width: 350px;
     grid-area: img;
+    margin-top: -80px;
 }
 
 .about-image-container > img {
